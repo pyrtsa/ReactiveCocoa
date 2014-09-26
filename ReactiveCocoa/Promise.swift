@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 GitHub. All rights reserved.
 //
 
+import Foundation
+
 private enum PromiseState<T> {
 	case Suspended(SinkOf<T> -> ())
 	case Started

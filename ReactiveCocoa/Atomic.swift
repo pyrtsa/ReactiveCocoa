@@ -7,6 +7,8 @@
 //  Copyright (c) 2014 GitHub. All rights reserved.
 //
 
+import Foundation
+
 /// An atomic variable.
 internal final class Atomic<T> {
 	private var spinlock = OS_SPINLOCK_INIT

@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 GitHub. All rights reserved.
 //
 
+import Foundation
 import swiftz_core
 
 /// A stream that will begin generating Events when a Consumer is attached,

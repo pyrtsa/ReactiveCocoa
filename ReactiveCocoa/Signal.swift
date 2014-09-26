@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 GitHub. All rights reserved.
 //
 
+import Foundation
 import swiftz_core
 
 /// A push-driven stream that sends the same values to all observers.
